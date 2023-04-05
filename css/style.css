@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.63)), url(../images/IMG_1253.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li{
+    margin-right: 20px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.ahmed{
+    position: absolute;
+    top: 40%;
+}
+
+.ahmed h1{
+    color: white;
+font-size: 40px;
+}
+
+.btn{
+    border: solid orange 1px;
+    border-radius: 20px;
+    margin: 7px 15px;
+    color: orange;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+
+section{
+    padding: 40px  0;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    border: solid orange 2px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.feat-disk{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.feat{
+    margin-top: 20px  auto;
+    /* padding: 20px; */
+}
+
+.feat i{
+    font-size: 25px;
+    color: orange;
+}
+
+.feat h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.meal{
+    padding: 0%;
+    background-color: black;
+}
+.meal img{
+    width: 100%;
+    padding: 0;
+    margin-bottom: -5px;
+    opacity: .6;
+    transition: 1s;
+}
+
+.meal img:hover{
+    color: white;
+    opacity: 1;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+hr{
+    color: orange;
+}
+
+.city img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.city h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.city i{
+    color: orange;
+    margin-right:15px ;
+    font-size: 20px;
+}
+
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.616)),url(../images/IMG_1247.JPG) ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.testimonials i{
+    font-size: 50px;
+
+}
+
+.testimonials p{
+    margin-bottom: 50px;
+
+}
+
+.testimonials img{
+    width: 30%;
+    vertical-align: middle;
+
+}
+
+.contect{
+    width: 100%;
+}
+
+
+.card{
+    background-color:white;
+    color: orange;
+}
+
+.zorar{
+    color: white;
+
+}
